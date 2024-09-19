@@ -9,11 +9,12 @@
     color: white;
     text-align: center;
     height: 50px;
-    padding-top: 15px;
+    padding-top: 10px;
 }
 h2{
    text-align: center;
    color: rgb(6, 6, 238); 
+   margin-top: 10px;
 }
 #categoryDiv{
     text-align: center;
