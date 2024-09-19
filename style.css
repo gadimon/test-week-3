@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.h3{
+    background-color: rgb(7, 7, 166);
+    color: white;
+    text-align: center;
+    height: 50px;
+    padding-top: 15px;
+}
+h2{
+   text-align: center;
+   color: rgb(6, 6, 238); 
+}
+#categoryDiv{
+    text-align: center;
+    margin: 20px;
+}
+.all{ 
+    justify-content: center;
+}
+table{
+    width: 90%;
+    color: cornflowerblue;
+    margin: 20px auto; 
+    border-collapse: collapse; 
+    font-family: Arial, sans-serif;
+    font-size: 16px; 
+}
+#tableDiv{
+    justify-content: center;
+    text-align: center;
+}
+th, td {
+    padding: 12px 15px;
+    border: 1px solid #ddd; 
+    text-align: center; 
+}
+th {
+    background-color: #f4f4f4; 
+    font-weight: bold;
+}
+ul{
+    background-color: #ddd;
+    padding: 30px;
+    border-radius: 8px;
+    list-style-type: none
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9; 
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+     
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-block: 70px;
+}
+
+#filter{
+    text-align: center;
+}
+
+#select{
+    width: 130px; 
+    margin: 20px;
+    padding: 6px 20px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: #5445f4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+#searchBtn{
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    text-align: center;
+}

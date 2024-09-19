@@ -7,6 +7,77 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+    <nav class="nav">
+        <h3 class="h3">NBA FANTASY 2014-2024</h3>
+    </nav>
+    </header>
+    <h2>My Fantasy Team</h2>
+    <div id="categoryDiv"  class="container">
+        <div>
+            <ul id="pointUl">
+                <li>point Guard</li>
+            </ul>            
+        </div>
+        <div>
+            <ul id="shootingUl">
+                <li>Shooting Guard</li>
+            </ul>            
+        </div>
+        <div>
+            <ul id="smallUl">
+                <li>Small Forward</li>
+            </ul>            
+        </div>
+        <div>
+            <ul id="powerUl">
+                <li>Power Forward</li>
+            </ul>            
+        </div>
+        <div>
+            <ul id="centerUl">
+                <li>Center</li>
+            </ul>            
+        </div>
+    </div>
+    <h2>NBA Player Search</h2>
+    <div  id="filter">
+        <select id="select">
+            <option>PG</option>
+            <option>SG</option>
+            <option>SF</option>
+            <option>PF</option>
+            <option>C</option>
+        </select>
+        <div  class="all">
+            <input id="pi_input" type="range" min="0" max="20000" step="any" />
+            <label><output id="value"></output></label>
+            <br>
+            <input id="pi_input1" type="range" min="0" max="100" step="any" />
+            <label><output id="value1"></output></label>
+            <br>
+            <input id="pi_input2" type="range" min="0" max="100" step="any" />
+            <label><output id="value2"></output></label>
+          </div>
+          <div id="tableDiv">
+          <button id="searchBtn">Search Player</button>
+          <thead id="thead">
+          <table id="table" border="1">
+              <tr class="tr_id">
+                  <th>Player</th> 
+                  <th>Position</th> 
+                  <th>Points</th> 
+                  <th>FG%</th> 
+                  <th>3P%</th> 
+                  <th>Action</th> 
+              </tr>
+        </thead>
+        <tbody id="tbody">
+
+        </tbody>
+        </table>
+    </div>
+    </div>
     <script src="index.js"></script>
 </body>
 </html>
